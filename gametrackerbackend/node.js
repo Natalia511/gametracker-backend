@@ -1,0 +1,14 @@
+server.js
+src/
+  utils/
+    db.js
+  models/
+    Juego.js
+    Resena.js
+  routes/
+    juegos.js
+    resenas.js
+  controllers/
+    juegosController.js
+    resenasController.js
+.env
