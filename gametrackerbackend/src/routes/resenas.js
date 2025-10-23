@@ -1,4 +1,4 @@
-// src/routes/reseñas.js
+
 const express = require("express");
 const router = express.Router();
 const Reseña = require("../models/Reseña");

@@ -8,6 +8,7 @@ const juegoSchema = new mongoose.Schema({
   completado: { type: Boolean, default: false },
   puntuacion: { type: Number, min: 0, max: 5 },
   descripcion: String,
+   categoria: String,  
   fechaCreado: { type: Date, default: Date.now }
 });
 
